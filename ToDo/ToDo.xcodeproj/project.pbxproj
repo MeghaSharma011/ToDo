@@ -7,27 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72117AB31FD8116B00369141 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72117AB21FD8116A00369141 /* TutorialViewController.m */; };
+		72117AB61FD815CB00369141 /* tutorialCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72117AB51FD815CB00369141 /* tutorialCollectionViewCell.m */; };
 		721ACD1F1FD6C9B5007E1365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 721ACD1E1FD6C9B5007E1365 /* AppDelegate.m */; };
-		721ACD221FD6C9B6007E1365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 721ACD211FD6C9B6007E1365 /* ViewController.m */; };
+		721ACD221FD6C9B6007E1365 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 721ACD211FD6C9B6007E1365 /* BaseViewController.m */; };
 		721ACD251FD6C9B6007E1365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721ACD231FD6C9B6007E1365 /* Main.storyboard */; };
 		721ACD281FD6C9B6007E1365 /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 721ACD261FD6C9B6007E1365 /* ToDo.xcdatamodeld */; };
-		721ACD2A1FD6C9B6007E1365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721ACD291FD6C9B6007E1365 /* Assets.xcassets */; };
 		721ACD2D1FD6C9B6007E1365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721ACD2B1FD6C9B6007E1365 /* LaunchScreen.storyboard */; };
 		721ACD301FD6C9B6007E1365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 721ACD2F1FD6C9B6007E1365 /* main.m */; };
+		724E838F1FDAA54E000939A3 /* TutorialPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 724E838E1FDAA54E000939A3 /* TutorialPage.m */; };
+		724E83931FDAA9DF000939A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724E83921FDAA9DF000939A3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72117AB11FD8116900369141 /* TutorialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		72117AB21FD8116A00369141 /* TutorialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		72117AB41FD815CB00369141 /* tutorialCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tutorialCollectionViewCell.h; sourceTree = "<group>"; };
+		72117AB51FD815CB00369141 /* tutorialCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tutorialCollectionViewCell.m; sourceTree = "<group>"; };
 		721ACD1A1FD6C9B5007E1365 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		721ACD1D1FD6C9B5007E1365 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		721ACD1E1FD6C9B5007E1365 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		721ACD201FD6C9B6007E1365 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		721ACD211FD6C9B6007E1365 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		721ACD201FD6C9B6007E1365 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		721ACD211FD6C9B6007E1365 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		721ACD241FD6C9B6007E1365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		721ACD271FD6C9B6007E1365 /* ToDo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDo.xcdatamodel; sourceTree = "<group>"; };
-		721ACD291FD6C9B6007E1365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		721ACD2C1FD6C9B6007E1365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		721ACD2E1FD6C9B6007E1365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		721ACD2F1FD6C9B6007E1365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		724E838D1FDAA54E000939A3 /* TutorialPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TutorialPage.h; sourceTree = "<group>"; };
+		724E838E1FDAA54E000939A3 /* TutorialPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TutorialPage.m; sourceTree = "<group>"; };
+		724E83921FDAA9DF000939A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +76,7 @@
 				721ACD3B1FD6CAB7007E1365 /* Resources */,
 				721ACD3A1FD6CAAD007E1365 /* Utility */,
 				721ACD231FD6C9B6007E1365 /* Main.storyboard */,
-				721ACD291FD6C9B6007E1365 /* Assets.xcassets */,
+				724E83921FDAA9DF000939A3 /* Assets.xcassets */,
 				721ACD2B1FD6C9B6007E1365 /* LaunchScreen.storyboard */,
 				721ACD2E1FD6C9B6007E1365 /* Info.plist */,
 				721ACD2F1FD6C9B6007E1365 /* main.m */,
@@ -88,8 +97,12 @@
 		721ACD371FD6CA58007E1365 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				721ACD211FD6C9B6007E1365 /* ViewController.m */,
-				721ACD201FD6C9B6007E1365 /* ViewController.h */,
+				721ACD201FD6C9B6007E1365 /* BaseViewController.h */,
+				721ACD211FD6C9B6007E1365 /* BaseViewController.m */,
+				72117AB11FD8116900369141 /* TutorialViewController.h */,
+				72117AB21FD8116A00369141 /* TutorialViewController.m */,
+				72117AB41FD815CB00369141 /* tutorialCollectionViewCell.h */,
+				72117AB51FD815CB00369141 /* tutorialCollectionViewCell.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -104,6 +117,8 @@
 		721ACD391FD6CAA3007E1365 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				724E838D1FDAA54E000939A3 /* TutorialPage.h */,
+				724E838E1FDAA54E000939A3 /* TutorialPage.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,7 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				721ACD2D1FD6C9B6007E1365 /* LaunchScreen.storyboard in Resources */,
-				721ACD2A1FD6C9B6007E1365 /* Assets.xcassets in Resources */,
+				724E83931FDAA9DF000939A3 /* Assets.xcassets in Resources */,
 				721ACD251FD6C9B6007E1365 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,10 +208,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721ACD221FD6C9B6007E1365 /* ViewController.m in Sources */,
+				72117AB61FD815CB00369141 /* tutorialCollectionViewCell.m in Sources */,
+				721ACD221FD6C9B6007E1365 /* BaseViewController.m in Sources */,
 				721ACD281FD6C9B6007E1365 /* ToDo.xcdatamodeld in Sources */,
 				721ACD301FD6C9B6007E1365 /* main.m in Sources */,
 				721ACD1F1FD6C9B5007E1365 /* AppDelegate.m in Sources */,
+				72117AB31FD8116B00369141 /* TutorialViewController.m in Sources */,
+				724E838F1FDAA54E000939A3 /* TutorialPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
